@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <!--<h1 class = "bg-primary">Hello</h1>-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5"> <!--px-5 means paddind in x-axis-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <!--margin start- auto It shifts the left(start) elements tpwards right as much as possible.-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="bg-primary text-white p-5 text-center">
+    <h1 class="display-3">Welcome to My Portfolio</h1>
+    <!--Here we use display property to make our heading larger...search for typography in BS-->
+    <p class="fs-2 fw-lighter">I showcase my projects and skills here</p>
+  </div>
+
+
+  <section class="container">
+    <h3 class="text-center pt-5">About Me</h3> <!--pt-5 means adding padding on top.-->
+    <div class="row">
+      <img class="col-sm-12 col-md-6"
+        src="https://plus.unsplash.com/premium_photo-1661598213264-9b708f59d793?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="my image" />
+      <p class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea totam, animi voluptatem rerum
+        facilis, sequi neque tempore nostrum quasi necessitatibus, maiores odit magni reiciendis. Sunt eveniet ipsum vel
+        nobis, odio debitis obcaecati quasi possimus. Sequi necessitatibus blanditiis quae officiis eveniet similique
+        tempore consequuntur, iusto illo nihil, aliquam magni fuga dolorum voluptatem iste. Veniam inventore soluta
+        aperiam fuga vitae temporibus odit eveniet mollitia ut quibusdam officia aliquam et suscipit, quisquam delectus
+        natus! Quod esse ex fuga omnis quasi, perferendis veniam hic.</p>
+    </div>
+  </section>
+
+
+  <section class="bg-light pb-5" id="cars">
+    <h2 class="text-center p-5">Portfolio</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4"> <!--col-small-12 means if screen size is small(mobile view) then this column(i.e pjt-1) takes the space of whole 12 column and in medium view it takes only 4 - col space-->
+          <div class="card ">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt="image-1" />
+            <div class="card-body">
+              <h3>Project-1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, sed?</p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="image-2" />
+            <div class="card-body">
+              <h3>Project-2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit exercit.</p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="image-3" />
+            <div class="card-body">
+              <h3>Project-3</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae nu.</p>
+              <button class="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container" id="form-container">
+    <h1 class="text-center">Contact</h1>
+    <div class="row">
+      <div class=" col-6 mx-auto d-flex flex-column align-item-center">
+
+        <label for="name" class="form-label fw-bold">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Tony stark">
+
+        <label for="Email" class="form-label fw-bold">e-mail</label>
+        <input type="email" id="Email" class="form-control" placeholder="tony1@gmail.com">
+
+        <label for="msg" class="form-label fw-bold">message</label>
+        <textarea rows = "5" id="msg" class="form-control" placeholder="write any message"></textarea>
+
+        <button class = "btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </section>
+<br>
+<br>
+  <footer class="bg-dark text-white text-center p-3">
+    2023 My Portfolio.All rights reserved.
+  </footer>
+
+</body>
+
+</html>
+<!--Learn about Modals , accordians , tool tips , carousels-->
